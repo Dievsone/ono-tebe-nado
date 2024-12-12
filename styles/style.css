@@ -6,7 +6,7 @@
 }
 
 .header__links-list {
- display: flex;
+    display: flex;
     place-self: center start;
     list-style: circle;
     gap: 32px;
@@ -41,10 +41,13 @@
 .address {
     margin: auto;
     font-size: 18px;
-    letter-spacing: 0.01em;
     line-height: 1.35;
     font-style: normal;
     padding-left: 68px;
+}
+
+.address a {
+    letter-spacing: 0.01em;
 }
 
 .cover {
@@ -126,7 +129,7 @@
 }
 
 .bet-button {
-  color: #fff;
+    color: #fff;
     place-self: center;
     position: relative;
     border: 1px solid;
@@ -172,7 +175,7 @@
 }
 
 .card h3 {
-  text-decoration: underline;
+    text-decoration: underline;
     color: #fff;
     text-transform: uppercase;
     padding: 51px 40px 0 40px;
@@ -228,7 +231,7 @@
 }
 
 .about__logo {
-margin-right: 11px;
+    margin-right: 11px;
 }
 
 .about__logo-image {
@@ -255,6 +258,7 @@ margin-right: 11px;
 .about__text p {
     font-size: 20px;
     line-height: 1.2;
+    padding: 1px 0 0 1px;
 }
 
 .about__text p span {
