@@ -168,6 +168,8 @@
     height: 100%;
     position: relative;
     min-height: 563px;
+    background-size: cover;
+    background-position: center;
 }
 
 .card h3 {
@@ -188,11 +190,6 @@
     font-weight: 400;
     color: #fff;
     z-index: 1;
-}
-
-.card {
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_film {
