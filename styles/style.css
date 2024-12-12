@@ -2,7 +2,7 @@
 .header__menu {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    margin: 90px 0;
+    margin: 95px 0;
 }
 
 .header__links-list {
@@ -265,6 +265,7 @@ margin-right: 11px;
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 88px;
 }
 
 .footer__address {
