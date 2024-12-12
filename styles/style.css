@@ -46,10 +46,6 @@
     padding-left: 67px;
 }
 
-.address a {
-    letter-spacing: 0.01em;
-}
-
 .cover {
     background-image: url(/images/cover.jpg);
     background-repeat: no-repeat;
