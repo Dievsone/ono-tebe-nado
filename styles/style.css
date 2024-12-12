@@ -2,6 +2,7 @@
 .header__menu {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    margin: 90px 0;
 }
 
 .header__links-list {
@@ -11,9 +12,7 @@
     gap: 33px;
     font-size: 18px;
     font-weight: 400;
-    font-family: Raleway;
     margin-left: 50px;
-    
 }
 
 .header__links-list a , .address a {
@@ -33,7 +32,6 @@
 .header__logo-image {
     display: block;
     max-width: 141px;
-    margin: 90px 0;
 }
 
 .address {
