@@ -9,7 +9,7 @@
  display: flex;
     place-self: center start;
     list-style: circle;
-    gap: 30px;
+    gap: 28px;
     font-size: 18px;
     font-weight: 400;
     margin-left: 50px;
@@ -224,7 +224,7 @@
 }
 
 .about__logo {
-margin-right: 10px;
+margin-right: 9px;
 }
 
 .about__logo-image {
