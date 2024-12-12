@@ -1,1 +1,1 @@
-https://github.com/Dievsone/ono-tebe-nado
+https://github.com/Dievsone/ono-tebe-nado-fd
