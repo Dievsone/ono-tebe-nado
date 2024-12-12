@@ -13,6 +13,7 @@
     font-size: 18px;
     font-weight: 400;
     margin-left: 50px;
+    flex-wrap: nowrap;
 }
 
 .header__links-list a , .address a {
@@ -40,7 +41,7 @@
     letter-spacing: 0.01em;
     line-height: 1.35;
     font-style: normal;
-    padding-left: 65px;
+    padding-left: 68px;
 }
 
 .cover {
@@ -259,7 +260,6 @@ margin-right: 11px;
 .about__text p span {
     display: block;
     padding-bottom: 24px;
-    letter-spacing: 0.01em;
 }
 
 .footer {
@@ -271,12 +271,14 @@ margin-right: 11px;
 .footer__address {
     padding-left: 50px;
     margin: auto 0;
+    padding-top: 2px;
 }
 
 .footer__menu-list {
     text-align: center;
     list-style: none;
     font-size: 18px;
+    padding-top: 2px;
 }
 
 .footer__menu-link {
