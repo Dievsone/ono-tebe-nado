@@ -16,7 +16,7 @@
 }
 
 .header__links-list li {
-    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .header__links-list a , .address a {
@@ -249,7 +249,7 @@ margin-right: 11px;
 }
 
 .about__text {
-    margin-left: 2px;
+    margin-left: 1px;
 }
 
 .about__text p {
