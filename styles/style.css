@@ -71,7 +71,7 @@
     
 }
 
-.aligned-text-no {
+.aligned-text-first {
     letter-spacing: 0.6em;
 }
 
@@ -82,7 +82,7 @@
     letter-spacing: 4px;
 }
 
-.aligned-text_center_be {
+.aligned-text_center_first {
    letter-spacing: 59px;
 }
 
@@ -94,15 +94,15 @@
     margin: 20px 50px 135px 0;
 }
 
-.aligned-text_right_n {
+.aligned-text_right_first {
     letter-spacing: 35px;
 }
 
-.aligned-text_right_d {
+.aligned-text_right_third {
     letter-spacing: 3px;
 }
 
-.aligned-text_right_a {
+.aligned-text_right_second {
     letter-spacing: 7px;
 }
 
@@ -190,22 +190,21 @@
     z-index: 1;
 }
 
-.card_type_film {
-    background-image: url(../images/card-lot-01.jpg);
+.card {
     background-size: cover;
     background-position: center;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .lots__look-more-link a {
@@ -249,16 +248,16 @@
 
 .about__text {
     margin-left: 1px;
+    max-width: 693px;
 }
 
 .about__text p {
     font-size: 20px;
     line-height: 1.2;
-    padding: 1px 0 0 1px;
+
 }
 
-.about__text p span {
-    display: block;
+.about__text .about__title__p__margin {
     padding-bottom: 24px;
 }
 
