@@ -265,7 +265,7 @@ margin-right: 11px;
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 88px;
+    margin-bottom: 86px;
 }
 
 .footer__address {
