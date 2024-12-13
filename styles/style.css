@@ -2,7 +2,7 @@
 .header__menu {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    margin: 90px 0;
+    margin: 100px 0;
 }
 
 .header__menu nav {
