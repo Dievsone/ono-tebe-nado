@@ -2,7 +2,11 @@
 .header__menu {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    margin: 98px 0;
+    margin: 90px 0;
+}
+
+.header__menu nav {
+    align-self: center;
 }
 
 .header__links-list {
@@ -63,15 +67,15 @@
     position: relative;
 }
 
+
 .aligned-text {
     margin: 165px 0 20px 50px;
     line-height: 1.15;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    
 }
 
-.aligned-text-first {
+.aligned-text .letter-spacing-extended {
     letter-spacing: 0.6em;
 }
 
@@ -79,37 +83,37 @@
     text-align: center;
     line-height: 1;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 
-.aligned-text_center_first {
-   letter-spacing: 59px;
+.aligned-text_center .letter-spacing-extended {
+    letter-spacing: 0.6em;
 }
 
 .aligned-text_right {
     text-align: right;
     line-height: 1;
     text-transform: uppercase;
-    
     margin: 20px 50px 135px 0;
-}
-
-.aligned-text_right_first {
-    letter-spacing: 35px;
-}
-
-.aligned-text_right_third {
     letter-spacing: 3px;
+    
 }
 
-.aligned-text_right_second {
-    letter-spacing: 7px;
+.aligned-text_right .letter-spacing-extended {
+    letter-spacing: 32px;
+    position: relative;
+    left: 29px;
+    
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
 .cover__description {
     display: grid;
     grid-template-columns: 2fr 1fr;
-   padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .cover__description-text {
@@ -240,7 +244,7 @@
 .about__title {
     font-size: 40px;
     text-transform: uppercase;
-    padding: 100px 0 100px 2px;
+    padding: 100px 0 80px 2px;
 }
 
 .about__text {
@@ -251,11 +255,8 @@
 .about__text p {
     font-size: 20px;
     line-height: 1.2;
-
-}
-
-.about__text .about__title__p__margin {
-    padding-bottom: 24px;
+    margin-top: 23px;
+    margin: 23px 0 0 3px;
 }
 
 .footer {
